@@ -172,6 +172,7 @@ main{
     background-size: cover;
     border-radius: 20px;
     height: 300px;
+    margin-bottom: 5px;
 }
 
 .info p{
@@ -185,4 +186,13 @@ main{
     font-weight: 800;
     color: var(--text-white);
     font-family: 'Cinzel', sans-serif;
+}
+
+.mundo-container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
