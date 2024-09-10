@@ -1,0 +1,96 @@
+@media (max-width: 992px) {
+
+    .navbar{
+        gap: 10px;
+    }
+
+    .navbar_list{
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        background: var(--nav-bg);
+        border: 2px solid var(--electric);
+        border-top: 0;
+        border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+    }
+
+    #menu-toggle:checked + .navbar_list{
+        display: flex;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu-label img{
+        height: 20px;
+        width: 25px;
+    }
+
+    .hero-info{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .mundo-container img{
+        display: none;
+    }
+
+    .card-img{
+        display: none;
+
+    }
+
+    .hero-info h1{
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info p{
+        width: 60%;
+        max-width: 600px;
+    }
+
+    /*SECCION INFO*/
+
+    #info{
+        width: 80%;
+    }
+
+    #info h2{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .info .container-informacion p{
+        width: 70%;
+        max-width: 500px;
+        margin-left: 100px;
+        
+    }
+    
+    /*SECCION CARDS*/
+
+    #cards .parrafo-principal{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .cards-container{
+        flex-direction: column;
+    }
+}
