@@ -33,6 +33,8 @@
     background-color: var(--primary);
 } */
 
+/*MENU HEADER*/
+
 header {
     background-color: var(--header-background);
     display: flex;
@@ -69,12 +71,6 @@ header {
     gap: 30px;
 }
 
-.nav-responsive .fa-bars {
-    color: var(--primary);
-    padding: 20px 10px;
-    cursor: pointer;
-}
-
 .navbar_list a {
     color: var(--text-white);
     font-size: 14px;
@@ -86,6 +82,10 @@ header {
 
 .navbar_list a:hover {
     color: var(--primary);
+}
+
+#menu-toggle, .menu-label{
+    display: none;
 }
 
 /*-------MAIN--------*/
@@ -302,6 +302,8 @@ main {
     flex-direction: column;
     gap: 10px;
 }
+
+/*SECCION FOOTER*/
 
 footer {
     background-color: var(--nav-bg);

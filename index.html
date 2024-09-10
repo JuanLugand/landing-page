@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./mediaqueries.css">
     <title>Landing-Page</title>
 </head>
 <body>
@@ -14,17 +14,19 @@
             <a href="index.html" class="logo">JuanMi</a>
         </div>
         <nav class="navbar">
+            <!--MENU HAMBURGUESA-->
+            <label for="menu-toggle" class="menu-label">
+                <img src="./img/menu.png" alt="menu">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <!--NAVBAR-->
             <ul class="navbar_list">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Mi Historia</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
-            <div class="nav-responsive">
-                <i class="fa-solid fa-bars"></i>
-            </div>
         </nav>
-        
     </header>
     <main>
         <!--SECCION HERO-->
@@ -58,29 +60,29 @@
         <!--SECCION CARDS-->
         <section id="cards" class="cards">
             <h2>Ventajas de Contratarme</h2>
-            <p>Mi actitud de aprendizaje continuo me permite absorber rápidamente nuevas tecnologías y prácticas. Además, aporto una perspectiva creativa que puede dar lugar a soluciones innovadoras. Soy colaborativo y siempre dispuesto a trabajar en equipo, lo que facilita un ambiente de trabajo positivo.</p>
+            <p class="parrafo-principal">Mi actitud de aprendizaje continuo me permite absorber rápidamente nuevas tecnologías y prácticas. Además, aporto una perspectiva creativa que puede dar lugar a soluciones innovadoras. Soy colaborativo y siempre dispuesto a trabajar en equipo, lo que facilita un ambiente de trabajo positivo.</p>
             <div class="cards-container">
                 <!--CARD 1-->
                 <div class="card">
-                    <img src="img/mundow.png" alt="sin internet">
+                    <img class="imagen-uno" src="img/mundow.png" alt="sin internet">
                     <h3>Actitud de Aprendizaje</h3>
                     <p>Como desarrollador frontend, estoy en una etapa donde absorbo conocimiento rápidamente y logro aprender rápido, lo que me permite adaptarme y mejorar continuamente.</p>
                 </div>
                 <!--CARD 2-->
                 <div class="card">
-                    <img src="img/computadora.png" alt="Diseño Responsive">
+                    <img class="imagen-dos" src="img/computadora.png" alt="Diseño Responsive">
                     <h3>Frescura y Creatividad</h3>
                     <p>Al ser nuevo en el campo aporto una perspectiva fresca y creatividad a los proyectos, lo que puede resultar en soluciones innovadoras y fuera de lo común.</p>
                 </div>
                 <!--CARD 3-->
                 <div class="card">
-                    <img src="img/diseñoweb.png" alt="diseño web">
+                    <img class="imagen-tres" src="img/diseñoweb.png" alt="diseño web">
                     <h3>Motivación y Esfuerzo</h3>
                     <p>Mi deseo de crecer en la industria me hace estar motivado y dispuesto a esforzarme al máximo en cada tarea, asegurando que doy lo mejor de mi en cada proyecto.</p>
                 </div>
             </div>
         </section>
-        <!--SECCION FORMULARIO-->
+        <!--SECCION CONTACTO-->
         <section id="contacto" class="contacto">
             <h2>Contactame</h2>
             <div class="contacto-container">
@@ -99,7 +101,7 @@
                         <p class="email">juan.lugand@gmail.com</p>
                     </div>
                 </div>  
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27701.847637817023!2d-58.07985042205801!3d-29.785420203488187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945292f82aa21261%3A0x10119094b42b01e3!2zQ3VydXrDuiBDdWF0acOhLCBDb3JyaWVudGVz!5e0!3m2!1ses!2sar!4v1724708317461!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27701.847637817023!2d-58.07985042205801!3d-29.785420203488187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945292f82aa21261%3A0x10119094b42b01e3!2zQ3VydXrDuiBDdWF0acOhLCBDb3JyaWVudGVz!5e0!3m2!1ses!2sar!4v1724708317461!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
             </div>
         </section>
     </main>
