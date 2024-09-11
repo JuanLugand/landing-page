@@ -94,3 +94,35 @@
         flex-direction: column;
     }
 }
+
+/*celular*/
+@media (max-width: 576px){
+
+    .hero .hero-info h1{
+        font-size: 2rem;
+    }
+
+    .hero .hero-info h2{
+        font-size: 1rem;
+    }
+
+    .hero-info .mundo-container p{
+        font-size: 0.7rem;
+    }
+
+    .hero-info p{
+        font-size: 10px;
+    }
+
+    .info h2{
+        font-size: 1rem; 
+    }
+
+    .info .container-informacion p{
+        margin-bottom: 50px;
+        font-size: 1rem;
+    }
+
+   
+
+}
